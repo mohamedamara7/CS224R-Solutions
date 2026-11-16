@@ -1,0 +1,19 @@
+Method: bc_reg
+Env:    hard
+Eval:   270.8 +/- 46.5  (50 episodes)
+Chunks: predict 20, execute 10
+
+=== Episode 1: 252 steps, CRASHED ===
+  CRASH  (t= 252): bird=0.175  gaps=(0.438, 0.772)
+
+=== Episode 2: 252 steps, CRASHED ===
+  CRASH  (t= 252): bird=0.627  gaps=(0.511, 0.846)
+
+=== Episode 3: 252 steps, CRASHED ===
+  CRASH  (t= 252): bird=0.692  gaps=(0.196, 0.531)
+
+=== Episode 4: 252 steps, CRASHED ===
+  CRASH  (t= 252): bird=0.672  gaps=(0.212, 0.547)
+
+=== Episode 5: 252 steps, CRASHED ===
+  CRASH  (t= 252): bird=0.690  gaps=(0.179, 0.513)
