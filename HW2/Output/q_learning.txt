@@ -1,0 +1,21 @@
+scenario_1
+  expected: goal_1
+  observed: goal_1
+  trajectory: ((0, 0), (1, 0), (2, 0), (3, 0), (3, 1), (4, 1), (4, 2), (4, 3))
+  actions: ('right', 'right', 'right', 'up', 'right', 'up', 'up')
+  total_reward: 3.00
+  start_q_values: (1.219, 2.265, 1.219, 2.265)
+scenario_2
+  expected: goal_2
+  observed: goal_2
+  trajectory: ((0, 0), (1, 0), (2, 0), (3, 0), (4, 0))
+  actions: ('right', 'right', 'right', 'right')
+  total_reward: -3.00
+  start_q_values: (-4.996, -3.057, -4.996, -4.329)
+scenario_3
+  expected: timeout
+  observed: timeout
+  trajectory: ((0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0))
+  actions: ('left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left', 'left')
+  total_reward: 20.00
+  start_q_values: (50.0, 50.0, 50.0, 50.0)
